@@ -36,11 +36,13 @@
     border: none;
     border-radius: 5px;
     transition: 1s;
-    transform: translatey(50px) rotate(10deg) scale(1.1);
+    transition-delay: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 .btn:hover {
-    background-color: yellow;
-    color: black;
+    width: 300px;
+   background-color: yellow;
+   color: black;
 }
 span {
     display: inline-block;
